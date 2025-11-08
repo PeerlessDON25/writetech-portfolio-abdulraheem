@@ -12,7 +12,6 @@ I'm a passionate technical writer with a background in software engineering. I l
 -----
 
 
-
 ## 📁 Project Modules
 
 | Module | Folder | Final Deliverables |

@@ -6,7 +6,7 @@ const sidebars = {
   docsSidebar: [
     {
       type: 'doc',
-      id: 'intro',
+      id: 'Introduction',
       label: 'Home',
     },
     {
