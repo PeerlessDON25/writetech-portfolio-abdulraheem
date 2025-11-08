@@ -21,10 +21,10 @@ const Resume = () => {
       <section className={styles.section}>
         <h2>Technical Writer & Documentation Engineer</h2>
         <p>
-          Accomplished Technical writer with experience in creating clear, user-focused documentation for developers. 
-          Skilled in API documentation, technical writing, and developer advocacy. Passionate about making complex 
-          technical concepts accessible through well-structured documentation and tutorials. Currently open to new 
-          opportunities and available to start immediately.
+          Accomplished Technical writer with experience in creating clear, user-focused documentation for developers and end-users. 
+          Skilled in content strategy, developer documentation, and technical writing. Passionate about making complex 
+          technical concepts accessible through well-structured content, documentation, and tutorials. 
+          Currently open to new remote opportunities and available to start immediately.
         </p>
       </section>
 
@@ -44,7 +44,7 @@ const Resume = () => {
         
       
         <div className={styles.experience}>
-          <h3>Technical Writer & Documentation Lead</h3>
+          <h3>Technical Writer & Documentation Engineer</h3>
           <p className={styles.company}>TechCrush | May 2025</p>
           <ul>
             <li>Reduced development ambiguity by 40% through comprehensive app requirement documentation</li>
@@ -77,10 +77,10 @@ const Resume = () => {
         <h2>Skills</h2>
         <div className={styles.skills}>
           <p>
-            <strong>Technical:</strong> API Documentation, Technical Writing, User Guides, OpenAPI/Swagger, Markdown, REST APIs
+            <strong>Core Competencies:</strong> Attention to Detail, Communication, Collaboration, Problem Solving, Strategic Planning, Time Management
           </p>
           <p>
-            <strong>Technologies:</strong> JavaScript, React, Git, Docusaurus, VS Code, Postman, Swagger
+            <strong>Documentation Deliverables:</strong> Docs-as-Code Systems, Knowledge Base Articles, Onboarding Guides, Product Documentation, Tutorials & Technical Blog Posts
           </p>
         </div>
       </section>
@@ -91,11 +91,6 @@ const Resume = () => {
           <h3>API Documentation Portal</h3>
           <p>Developed comprehensive API documentation for an AI/ML startup using OpenAPI and Swagger UI, reducing integration time by 40%.</p>
           <p><strong>Technologies:</strong> OpenAPI, Swagger UI, Docusaurus, GitHub Actions</p>
-        </div>
-        <div className={styles.project}>
-          <h3>Refract Documentation</h3>
-          <p>Created and maintained developer documentation for Refract, focusing on clear API references and integration guides. Improved developer experience with practical examples and troubleshooting guides.</p>
-          <p><strong>Technologies:</strong> Markdown, Docusaurus, OpenAPI, React, GitHub</p>
         </div>
       </section>
     </div>

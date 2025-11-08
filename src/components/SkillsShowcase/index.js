@@ -8,8 +8,8 @@ const skillsData = [
   {
     category: "Technical Documentation",
     skills: [
-      { name: "Docusaurus", level: 95 },
-      { name: "Markdown", level: 95 },
+      { name: "Docusaurus", level: 85 },
+      { name: "Markdown", level: 85 },
       { name: "Git/GitHub", level: 85 },
       { name: "Postman/Swagger", level: 85 }
     ]
@@ -17,8 +17,8 @@ const skillsData = [
   {
     category: "Software Development",
     skills: [
-      { name: "React", level: 80 },
-      { name: "JavaScript", level: 80 },
+      { name: "React", level: 85 },
+      { name: "JavaScript", level: 85 },
       { name: "HTML", level: 85 },
       { name: "CSS", level: 85 }
     ]
@@ -26,8 +26,8 @@ const skillsData = [
   {
     category: "Technical Writing",
     skills: [
-      { name: "Google Docs", level: 90 },
-      { name: "Microsoft Office", level: 90 },
+      { name: "Google Docs", level: 85 },
+      { name: "Microsoft Office", level: 85 },
       { name: "Notion", level: 85 },
       { name: "SharePoint", level: 85 }
     ]
