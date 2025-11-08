@@ -28,7 +28,7 @@ const skillsData = [
     skills: [
       { name: "User Experience", level: 85 },
       { name: "Information Architecture", level: 95 },
-      { name: "Content Planning", level: 90 },
+      { name: "Content Management", level: 90 },
       { name: "Developer Advocacy", level: 85 }
     ]
   }

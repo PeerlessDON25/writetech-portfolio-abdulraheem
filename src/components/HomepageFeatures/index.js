@@ -32,7 +32,7 @@ const FeatureList = [
         Leveraging cutting-edge tools like Docusaurus, OpenAPI, and automated workflows, I build scalable documentation ecosystems that grow with your product. Clean code, consistent design, and maintainable architecture are at the core of everything I create.
       </>
     ),
-    metrics: "Built 3+ documentation platforms"
+    metrics: "Built 5+ documentation platforms"
   }
 ];
 

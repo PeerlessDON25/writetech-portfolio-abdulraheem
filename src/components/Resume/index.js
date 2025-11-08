@@ -7,7 +7,7 @@ const Resume = () => {
       <header className={styles.header}>
         <h1>AbdulRaheem Olurode</h1>
         <p className={styles.contact}>
-          Lagos, Nigeria | +2348169433895 | abdraheemolu2020@gmail.com<br />
+          Lagos, Nigeria | abdraheemolu2020@gmail.com<br />
           <a href="https://linkedin.com/in/abdulraheem-olurode25" target="_blank" rel="noopener noreferrer" className={styles.link}>
             LinkedIn Profile
           </a>{' '}
@@ -19,9 +19,9 @@ const Resume = () => {
       </header>
 
       <section className={styles.section}>
-        <h2>Technical Writer Documentation Engineer</h2>
+        <h2>Technical Writer & Documentation Engineer</h2>
         <p>
-          Technical writer with 5 years of experience creating clear, user-focused documentation for developers. 
+          Accomplished Technical writer with experience in creating clear, user-focused documentation for developers. 
           Skilled in API documentation, technical writing, and developer advocacy. Passionate about making complex 
           technical concepts accessible through well-structured documentation and tutorials. Currently open to new 
           opportunities and available to start immediately.
@@ -44,7 +44,7 @@ const Resume = () => {
         
       
         <div className={styles.experience}>
-          <h3>Technical Writer & Documentation Lead (Volunteer)</h3>
+          <h3>Technical Writer & Documentation Lead</h3>
           <p className={styles.company}>TechCrush | May 2025</p>
           <ul>
             <li>Reduced development ambiguity by 40% through comprehensive app requirement documentation</li>
@@ -67,7 +67,7 @@ const Resume = () => {
       <section className={styles.section}>
         <h2>Education</h2>
         <div className={styles.education}>
-          <h3>Bachelor's in Information Technology</h3>
+          <h3>Bachelor Degree in Information Technology</h3>
           <p>Nigerian University of Technology and Management | 2020 - 2025</p>
           <p>Coursework: Data Structures, Algorithms, Database Systems, Software Engineering, Web Development</p>
         </div>

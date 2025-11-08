@@ -23,10 +23,10 @@ function HomepageHeader() {
               <TypingAnimation text="Hello, I'm" speed={100} />
             </div>
             <Heading as="h1" className={clsx('hero__title', styles.heroTitle)}>
-              Samuel Benson
+              AbdulRaheem Olurode
             </Heading>
             <div className={styles.heroSubtitle}>
-              Technical Writer & DocumentationEngineer
+              Technical Writer & Documentation Engineer
             </div>
             <p className={clsx('hero__subtitle', styles.heroDescription)}>
               I transform complex technical concepts into clear, actionable documentation that empowers developers and drives product adoption. Welcome to my WriteTech Accelerator portfolio.
@@ -48,7 +48,7 @@ function HomepageHeader() {
             <div className={styles.buttons}>
               <Link
                 className="button button--secondary button--lg"
-                to="/docs/intro">
+                to="/docs/intro.md">
                 View Portfolio
               </Link>
               <Link

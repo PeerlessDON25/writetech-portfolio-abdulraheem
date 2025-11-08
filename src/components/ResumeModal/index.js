@@ -175,7 +175,7 @@ const ResumeModal = () => {
         await captureResume();
         
         // Save the PDF
-        pdf.save('Samuel_Benson_Resume.pdf');
+        pdf.save('AbdulRaheem_Olurode_Resume.pdf');
         
       } finally {
         // Clean up
@@ -245,7 +245,7 @@ const ResumeModal = () => {
           <div className={styles.modalContent}>
             <div className={styles.modalHeader}>
               <h2 className={styles.modalTitle}>
-                Resume - Samuel Benson
+                Resume - AbdulRaheem Olurode
               </h2>
               <div className={styles.modalActions}>
                 <button 

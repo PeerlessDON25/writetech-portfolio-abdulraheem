@@ -6,7 +6,7 @@ const config = {
   title: 'Technical Writer & Documentation Engineer',
   tagline:
     'This is my portfolio for the WriteTech Accelerator Program, showcasing projects from each module and final deliverables.',
-  favicon: 'img/favicon-32x32.png',
+  favicon: 'null',
 
   future: {
     v4: true,
@@ -107,15 +107,15 @@ const config = {
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Samuel Benson',
+      title: 'Icon',
       logo: {
-        alt: 'Samuel Benson headshot',
-        src: 'img/favicon-32x32.png',
+        alt: 'Docusaurus Logo',
+        src: 'static/img/logo.svg',
       },
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'Introduction',
           position: 'left',
           label: 'About Me',
         },

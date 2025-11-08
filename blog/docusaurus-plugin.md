@@ -90,7 +90,7 @@ module.exports = {
 
   themeConfig: {
     navbar: {
-      title: 'Samuel Benson',
+      title: 'AbdulRaheem Olurode',
       items: [
         // add a navbar item that points to the API sidebar id we define next
         { type: 'docSidebar', sidebarId: 'chimoney', label: 'Chimoney API', position: 'left' },
