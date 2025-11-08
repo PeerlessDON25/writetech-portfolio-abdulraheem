@@ -1,6 +1,7 @@
 {
-  "name": "writetech-accelerator-portfolio-zainab",
-  "version": "0.0.0",
+  "$schema": "https://json.schemastore.org/package",
+  "name": "writetech-accelerator-portfolio-abdulraheem",
+  "version": "0.10.5",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

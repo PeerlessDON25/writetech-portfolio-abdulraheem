@@ -1,7 +1,7 @@
 ---
 slug: jsonplaceholder-api-documentation-docusaurus
 title: How I Successfully Set Up JSONPlaceholder API Documentation
-author: samuel-benson
+author: AbdulRaheem Olurode
 tags: [docusaurus, documentation, jsonplaceholder, api]
 description: A step-by-step guide on how I set up JSONPlaceholder API documentation using Docusaurus. Learn how to install, configure, and generate clean API docs with examples.
 keywords: [jsonplaceholder api documentation, docusaurus api docs, openapi plugin docusaurus, generate api documentation, rest api docs]
@@ -10,7 +10,7 @@ image: /img/jsonplaceholder-docusaurus.png
 
 <!-- truncate -->
 
-![Samuel Benson](/img/samuel-benson.jpg)
+![AbdulRaheem Olurode](https://www.dropbox.com/scl/fi/s4v2fm6a10qc4ziyngzzj/AbdulRaheem-Olurode.png?rlkey=7wlsoo36013eknyzjbuy5ruke&st=tzb1nviy&dl=0)
 
 Setting up clear and accessible API documentation is essential for any project. In this post, I’ll share how I built a developer-friendly documentation site for the JSONPlaceholder fake REST API using Docusaurus.
 
