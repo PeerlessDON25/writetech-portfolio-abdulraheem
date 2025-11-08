@@ -9,9 +9,9 @@ const skillsData = [
     category: "Documentation Tools",
     skills: [
       { name: "Docusaurus", level: 95 },
-      { name: "Markdown", level: 98 },
-      { name: "Git/GitHub", level: 90 },
-      { name: "OpenAPI/Swagger", level: 85 }
+      { name: "Markdown", level: 95 },
+      { name: "Git/GitHub", level: 85 },
+      { name: "OpenAPI/Swagger", level: 80 }
     ]
   },
   {
@@ -19,16 +19,16 @@ const skillsData = [
     skills: [
       { name: "React", level: 80 },
       { name: "JavaScript", level: 85 },
-      { name: "API Documentation", level: 95 },
-      { name: "Technical Writing", level: 98 }
+      { name: "API Documentation", level: 80 },
+      { name: "Technical Writing", level: 95 }
     ]
   },
   {
     category: "Content Strategy",
     skills: [
-      { name: "User Experience", level: 90 },
-      { name: "Information Architecture", level: 88 },
-      { name: "Content Planning", level: 92 },
+      { name: "User Experience", level: 85 },
+      { name: "Information Architecture", level: 95 },
+      { name: "Content Planning", level: 90 },
       { name: "Developer Advocacy", level: 85 }
     ]
   }

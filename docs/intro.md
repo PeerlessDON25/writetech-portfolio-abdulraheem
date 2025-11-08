@@ -1,5 +1,5 @@
 ---
-id: intro
+id: Introduction
 title: My WriteTech Accelerator Portfolio
 sidebar_position: 1
 ---
@@ -28,4 +28,4 @@ Each module represents a key area of technical writing and documentation that I'
 - [LinkedIn](https://www.linkedin.com/in/abdulraheemolurode25)
 - [Notion Portfolio](https://www.notion.so/abdulraheem-olurode25/My-Portfolio-20272992bc76802e93fadb621fdec00b?source=copy_link)
 
-Thanks for exploring my work!
+Thanks for exploring my work!!!

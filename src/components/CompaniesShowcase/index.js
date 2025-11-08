@@ -3,12 +3,6 @@ import styles from './styles.module.css';
 
 const companies = [
   {
-    name: 'myRide',
-    logo: '/img/icons/myride-placeholder.svg',
-    alt: 'myRide logo',
-    fallbackText: 'myRide'
-  },
-  {
     name: 'TheCoding ClubHouse',
     logo: '/img/icons/TheCoding ClubHouse.svg',
     alt: 'TheCoding ClubHouse logo',
@@ -20,12 +14,6 @@ const companies = [
     alt: 'Technical Writing Mentorship Program logo',
     fallbackText: 'TWM'
   },
-  {
-    name: 'CMusicAI',
-    logo: '/img/icons/CMusicAI.webp',
-    alt: 'CMusicAI logo',
-    fallbackText: 'CMAI'
-  }
 ];
 // Debug: Log the companies data
 console.log('Companies data:', companies);

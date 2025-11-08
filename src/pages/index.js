@@ -26,7 +26,7 @@ function HomepageHeader() {
               Samuel Benson
             </Heading>
             <div className={styles.heroSubtitle}>
-              Technical Writer & Software Engineer
+              Technical Writer & DocumentationEngineer
             </div>
             <p className={clsx('hero__subtitle', styles.heroDescription)}>
               I transform complex technical concepts into clear, actionable documentation that empowers developers and drives product adoption. Welcome to my WriteTech Accelerator portfolio.
@@ -68,8 +68,8 @@ function HomepageHeader() {
             <div className={styles.profileCard}>
               <div className={styles.profileImageContainer}>
                 <img 
-                  src="/img/samuel-benson.jpg" 
-                  alt="Samuel Benson"
+                  src="/img/abdulraheem-olurode.jpg" 
+                  alt="AbdulRaheem Olurode"
                   className={styles.profileImage}
                 />
               </div>
@@ -88,8 +88,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Samuel Benson - Technical Writer & Software Engineer`}
-      description="Technical Writer and Software Engineer specializing in developer documentation, API references, and user-focused content. Explore my WriteTech Accelerator portfolio showcasing documentation projects and technical writing expertise.">
+      title={`AbdulRaheem Olurode - Technical Writer & Documentation Engineer`}
+      description="Technical Writer and Documentation Engineer specializing in developer documentation, API references, and user-focused content. Explore my WriteTech Accelerator portfolio showcasing documentation projects and technical writing expertise.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

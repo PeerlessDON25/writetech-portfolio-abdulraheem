@@ -9,7 +9,7 @@ Automated checks for documentation quality using [Vale](https://vale.sh) and [Sp
 * **GitHub Actions** - Runs checks on every commit
 * Custom config files for rules
 
-[View live workflow logs](https://github.com/Samuel-Benso/writetech-accelerator-portfolio-samuel/actions/runs/17347588932/job/49249573164#logs)
+[View live workflow logs](https://https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem)
 
 ## Standards Enforced
 
