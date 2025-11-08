@@ -12,7 +12,7 @@ const config = {
     v4: true,
   },
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://abdulraheem-docusaurus-site.com',
   baseUrl: '/',
 
   organizationName: 'facebook', // Update this later for deployment
@@ -182,7 +182,7 @@ const config = {
           items: [
             {
               label: 'About Me',
-              to: '/docs/Introduction',
+              to: 'https://www.notion.so/abdulraheem-olurode25/My-Portfolio-20272992bc76802e93fadb621fdec00b?source=copy_link',
             },
           ],
         },

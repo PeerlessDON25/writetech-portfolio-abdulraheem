@@ -3,12 +3,6 @@ import styles from './styles.module.css';
 
 const companies = [
   {
-    name: 'TheCoding ClubHouse',
-    logo: '/img/icons/TheCoding ClubHouse.svg',
-    alt: 'TheCoding ClubHouse logo',
-    fallbackText: 'CCH'
-  },
-  {
     name: 'TechCrush Academy',
     logo: 'static/img/tech crush.svg',
     alt: 'TechCrush logo',

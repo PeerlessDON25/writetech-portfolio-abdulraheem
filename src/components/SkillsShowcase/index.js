@@ -145,7 +145,7 @@ export default function SkillsShowcase() {
             <div className={styles.ctaButtons}>
               <ResumeModal />
               <a 
-                href="https://www.notion.so"
+                href="https://www.notion.so/abdulraheem-olurode25/My-Portfolio-20272992bc76802e93fadb621fdec00b?source=copy_link"
                 className="button button--outline button--primary button--lg"
                 target="_blank"
                 rel="noopener noreferrer"
