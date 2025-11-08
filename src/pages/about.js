@@ -47,10 +47,10 @@ export default function About() {
           <section className={styles.section}>
             <h2>Get In Touch</h2>
             <div className={styles.contactLinks}>
-              <Link to="https://linkedin.com/in/your-profile" className="button button--secondary">
+              <Link to="https://www.linkedin.com/in/abdulraheemolurode25" className="button button--secondary">
                 LinkedIn
               </Link>
-              <Link to="https://your-notion-portfolio.com" className="button button--secondary">
+              <Link to="https://www.notion.so/abdulraheem-olurode25/My-Portfolio-20272992bc76802e93fadb621fdec00b?source=copy_link" className="button button--secondary">
                 Notion Portfolio
               </Link>
             </div>

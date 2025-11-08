@@ -9,10 +9,22 @@ const companies = [
     fallbackText: 'CCH'
   },
   {
+    name: 'TechCrush Academy',
+    logo: 'static/img/tech crush.svg',
+    alt: 'TechCrush logo',
+    fallbackText: 'TCA'
+  },
+  {
+    name: 'Revive Digital Solutions',
+    logo: '/static/img/revive digital solutions.png',
+    alt: 'Revive Digital Solutions logo',
+    fallbackText: 'RDS'
+  },
+  {
     name: 'Technical Writing Mentorship Program',
     logo: '/img/icons/Technical Writing Mentorship Program.svg',
     alt: 'Technical Writing Mentorship Program logo',
-    fallbackText: 'TWM'
+    fallbackText: 'TWMP'
   },
 ];
 // Debug: Log the companies data

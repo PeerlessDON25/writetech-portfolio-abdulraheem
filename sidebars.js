@@ -49,7 +49,7 @@ const sidebars = {
         // API Documentation
         {
           type: 'category',
-          label: 'Chimoney API',
+          label: 'API Documentation',
           link: {
             type: 'doc',
             id: 'api-documentation/intro',

@@ -9,10 +9,10 @@ const FeatureList = [
     Svg: require('@site/static/img/easy.svg').default,
     description: (
       <>
-        I transform complex technical concepts into clear, actionable guides that developers actually want to use. Every piece of documentation is crafted with the end-user's journey in mind, reducing support tickets and accelerating product adoption.
+        I transform complex technical concepts into clear, actionable guides that improve developer experience. Every piece of documentation is crafted with the end-user's journey in mind, reducing support tickets and accelerating product adoption.
       </>
     ),
-    metrics: "Reduced onboarding time by 60%"
+    metrics: "Reduced support tickets and onboarding time by 60%"
   },
   {
     title: 'Developer Experience Focus',

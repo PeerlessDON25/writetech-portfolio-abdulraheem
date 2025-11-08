@@ -10,7 +10,7 @@ image: /img/jsonplaceholder-docusaurus.png
 
 <!-- truncate -->
 
-![AbdulRaheem Olurode](https://www.dropbox.com/scl/fi/s4v2fm6a10qc4ziyngzzj/AbdulRaheem-Olurode.png?rlkey=7wlsoo36013eknyzjbuy5ruke&st=tzb1nviy&dl=0)
+![AbdulRaheem Olurode](static/img/icons/abdulraheem image.png)
 
 Setting up clear and accessible API documentation is essential for any project. In this post, I’ll share how I built a developer-friendly documentation site for the JSONPlaceholder fake REST API using Docusaurus.
 

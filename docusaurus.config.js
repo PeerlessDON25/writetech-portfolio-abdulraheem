@@ -6,7 +6,7 @@ const config = {
   title: 'Technical Writer & Documentation Engineer',
   tagline:
     'This is my portfolio for the WriteTech Accelerator Program, showcasing projects from each module and final deliverables.',
-  favicon: 'null',
+  favicon: 'static/img/icons/abdulraheem image.png',
 
   future: {
     v4: true,
@@ -182,7 +182,7 @@ const config = {
           items: [
             {
               label: 'About Me',
-              to: '/docs/intro',
+              to: '/docs/Introduction',
             },
           ],
         },

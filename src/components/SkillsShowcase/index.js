@@ -6,29 +6,38 @@ import styles from './styles.module.css';
 
 const skillsData = [
   {
-    category: "Documentation Tools",
+    category: "Technical Documentation",
     skills: [
       { name: "Docusaurus", level: 95 },
       { name: "Markdown", level: 95 },
       { name: "Git/GitHub", level: 85 },
-      { name: "OpenAPI/Swagger", level: 80 }
+      { name: "Postman/Swagger", level: 85 }
     ]
   },
   {
-    category: "Technical Skills",
+    category: "Software Development",
     skills: [
       { name: "React", level: 80 },
-      { name: "JavaScript", level: 85 },
-      { name: "API Documentation", level: 80 },
-      { name: "Technical Writing", level: 95 }
+      { name: "JavaScript", level: 80 },
+      { name: "HTML", level: 85 },
+      { name: "CSS", level: 85 }
+    ]
+  },
+  {
+    category: "Technical Writing",
+    skills: [
+      { name: "Google Docs", level: 90 },
+      { name: "Microsoft Office", level: 90 },
+      { name: "Notion", level: 85 },
+      { name: "SharePoint", level: 85 }
     ]
   },
   {
     category: "Content Strategy",
     skills: [
       { name: "User Experience", level: 85 },
-      { name: "Information Architecture", level: 95 },
-      { name: "Content Management", level: 90 },
+      { name: "Information Architecture", level: 85 },
+      { name: "Content Management", level: 85 },
       { name: "Developer Advocacy", level: 85 }
     ]
   }
