@@ -1,7 +1,7 @@
 ---
 slug: how-to-use-docusaurus-openapi-plugin
 title: How to Use Docusaurus OpenAPI plugin
-author: samuel-benson
+author: AbdulRaheem Olurode
 tags: [docusaurus, documentation, jsonplaceholder, api]
 description: This guide covers keyword research, on-page SEO, internal linking, meta descriptions, and more with clear steps and examples.
 keywords: [how to rank blog post on google, seo for beginners, blog seo tips, rank higher on google, content optimization, on-page seo]

@@ -1,7 +1,7 @@
 ---
 slug: how-to-rank-blog-posts-on-google
 title: How to Rank Your Blog Post on Google
-authors: samuel-benson
+authors: AbdulRaheem Olurode
 tags: [seo, blogging, google ranking, content writing, docusaurus]
 description: This guide covers keyword research, on-page SEO, internal linking, meta descriptions, and more with clear steps and examples.
 keywords: [how to rank blog post on google, seo for beginners, blog seo tips, rank higher on google, content optimization, on-page seo]

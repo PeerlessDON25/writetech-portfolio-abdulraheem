@@ -2,7 +2,7 @@
 
 slug: beginner-guide-to-yaml-and-openapi
 title: Beginner’s Guide to YAML and OpenAPI with Real-Life Examples
-authors: AbdulRaheem-Olurode
+authors: AbdulRaheem Olurode
 tags: [openapi, yaml, api documentation, beginners guide, software development]
 description: Learn YAML and OpenAPI through simple real-life examples. This guide walks beginners step by step with clear explanations, stories, and practical demonstrations.
 keywords: [yaml tutorial for beginners, openapi guide, api documentation yaml, learn yaml step by step, openapi beginners guide, yaml examples]
@@ -26,7 +26,7 @@ Think about a **person**. A person is an **object**. Something that contains inf
 
 If we wanted to describe this person in plain English, we might say:
 
-> This is John. He is 30 years old. His skills are writing, coding, and reading.
+> This is Don. He is 30 years old. His skills are writing, coding, and reading.
 
 But computers don’t understand English the way we do. They prefer structured formats. That’s where **YAML** comes in.
 
@@ -34,12 +34,12 @@ Here’s how the same “person” object looks in YAML:npg
 
 ```yaml
 person:
-  name: John
+  name: Don
   age: 30
   skills:
     - writing
     - coding
-    - singing
+    - reading
 ```
 
 Notice how:

@@ -1,6 +1,6 @@
 ---
 title: Navigating Docusaurus Setup Challenges as a Beginner
-authors: samuel-benson
+authors: AbdulRaheem Olurode
 tags: [docusaurus, documentation, troubleshooting, beginner]
 description: A practical guide to help beginners overcome common Docusaurus challenges and get their documentation site running smoothly.
 ---

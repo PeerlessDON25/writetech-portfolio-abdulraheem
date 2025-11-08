@@ -1,7 +1,7 @@
 ---
 slug: how-to-use-openapi-plugin-docusaurus
 title: How Docusaurus Sidebars and Config Files Work to Shape Your Website
-authors: samuel-benson
+authors: AbdulRaheem Olurode
 tags: [docusaurus, openapi, documentation, api]
 description: Learn how to structure sidebars and the docusaurus.config file to create smooth navigation, clear tabs, and working pages on your Docusaurus site. Step-by-step examples included.
 keywords: [docusaurus openapi plugin, api documentation docusaurus, generate api docs docusaurus]
