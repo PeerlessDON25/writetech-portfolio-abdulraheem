@@ -5,7 +5,7 @@ Welcome\! This repository contains all my project work and deliverables from the
 
 Over the course of this bootcamp, from **August to November, 2025**, I will complete technical writing projects across various domains, including API documentation, AI, DevOps, automation, and Web3. All projects listed below will be completed and deployed by the end of the program.
 
-## 👩🏽‍💻 About Me
+## 👨‍💻 About Me
 
 I'm a passionate technical writer with a background in software engineering. I love translating complex technical concepts into clear, user-friendly documentation. This portfolio highlights the practical skills I've gained during the WriteTech Accelerator, where I focused on developing robust and scalable documentation solutions.
 
