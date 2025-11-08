@@ -1,7 +1,7 @@
 ---
 slug: adding-search-to-docusaurus
 title: Adding a Functional Search Bar to Your Docusaurus Site
-authors: samuel-benson
+authors: AbdulRaheem Olurode
 tags: [documentation, docusaurus, search, tutorial]
 description: Learn how to add a powerful local search feature to your Docusaurus documentation with this step-by-step guide.
 keywords: [docusaurus search, local search, add search to docusaurus, documentation search, site search, offline search]

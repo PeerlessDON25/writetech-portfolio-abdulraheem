@@ -3,7 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Technical Writer & Software Engineer',
+  title: 'Technical Writer & Documentation Engineer',
   tagline:
     'This is my portfolio for the WriteTech Accelerator Program, showcasing projects from each module and final deliverables.',
   favicon: 'img/favicon-32x32.png',
@@ -44,7 +44,7 @@ const config = {
           docItemComponent: '@theme/ApiItem', // Required for OpenAPI theme
           routeBasePath: '/', // Serve the docs at the site root
           editUrl:
-            'https://github.com/Samuel-Benso/writetech-accelerator-portfolio-samuel',
+            'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
           breadcrumbs: true,
@@ -58,7 +58,7 @@ const config = {
             xslt: true,
           },
           editUrl:
-            'https://github.com/WriteTech-Hub/writetech-accelerator-portfolio-zainab',
+            'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -162,13 +162,13 @@ const config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://www.notion.so/Samuel-Benson-Portfolio-231a5f1c6be08076a43ac5a54ae36a04#231a5f1c6be0815cba76efed82a5ce6c',
+          href: 'https://www.notion.so/abdulraheem-olurode25/My-Portfolio-20272992bc76802e93fadb621fdec00b?source=copy_link',
           label: 'Notion Portfolio',
           position: 'right',
           className: 'button button--primary',
         },
         {
-          href: 'https://github.com/Samuel-Benso/writetech-accelerator-portfolio-samuel',
+          href: 'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
           label: 'GitHub',
           position: 'right',
         },
@@ -199,7 +199,7 @@ const config = {
             },
             {
               label: 'X',
-              href: 'https://x.com/SamyD41082',
+              href: 'https://x.com/TechWriterDON',
             },
           ],
         },
@@ -212,12 +212,12 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/Samuel-Benso/writetech-accelerator-portfolio-samuel',
+              href: 'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Built by Samuel Benson – WriteTech Accelerator Programme 2025`,
+      copyright: `Copyright © ${new Date().getFullYear()} Built by AbdulRaheem Olurode – WriteTech Accelerator Programme 2025`,
     },
     prism: {
       theme: prismThemes.github,
