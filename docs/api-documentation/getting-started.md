@@ -19,7 +19,7 @@ To test the Chimoney API safely without spending real money, you’ll use the **
 
 Once verified, you’ll be redirected to your **dashboard**.
 
-![Sandbox](/img/chimoney.png)
+![Sandbox]()
 
 ## 2. Explore Your Sandbox Wallets
 

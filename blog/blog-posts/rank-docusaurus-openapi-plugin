@@ -198,7 +198,7 @@ Place the file at `static/img/seo-openapi-guide.png`.
 Embed it:
 
 ```md
-![Generated OpenAPI sidebar in Docusaurus](/img/seo-openapi-guide.png)
+![Generated OpenAPI sidebar in Docusaurus]()
 ```
 
 Keep image names readable. Set alt text that describes the image. This helps accessibility and image search.
