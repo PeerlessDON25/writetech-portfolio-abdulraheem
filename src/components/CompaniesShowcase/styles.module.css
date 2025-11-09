@@ -96,6 +96,7 @@
   color: var(--ifm-color-emphasis-700);
   margin-top: 0.5rem;
   word-break: break-word;
+  -webkit-hyphens: auto;
   hyphens: auto;
 }
 
