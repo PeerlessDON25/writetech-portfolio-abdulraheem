@@ -42,8 +42,8 @@ const config = {
           routeBasePath: '/', // Serve the docs at the site root
           editUrl:
             'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
-          showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
+          showLastUpdateTime: false,
+          showLastUpdateAuthor: false,
           breadcrumbs: true,
           sidebarCollapsible: true,
           sidebarCollapsed: true,
