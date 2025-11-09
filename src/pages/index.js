@@ -47,11 +47,6 @@ function HomepageHeader() {
             </div>
             <div className={styles.buttons}>
               <Link
-                className="button button--secondary button--lg"
-                to="https://www.notion.so/abdulraheem-olurode25/My-Portfolio-20272992bc76802e93fadb621fdec00b?source=copy_link">
-                View Portfolio
-              </Link>
-              <Link
                 className="button button--outline button--secondary button--lg"
                 to="/blog">
                 Read My Blog
