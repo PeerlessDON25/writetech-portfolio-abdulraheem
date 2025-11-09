@@ -39,7 +39,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           docItemComponent: '@theme/ApiItem',
-          routeBasePath: '/', // Serve the docs at the site root
+          routeBasePath: '/', 
           editUrl:
             'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
           showLastUpdateTime: false,
