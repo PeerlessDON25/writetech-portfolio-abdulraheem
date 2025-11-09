@@ -3,7 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docusaurus Portfolio',
+  title: 'AbdulRaheem Olurode',
   tagline:
     'This is my portfolio for the WriteTech Accelerator Program, showcasing projects from each module and final deliverables.',
   favicon: 'static/img/favicon-v5.png',
@@ -96,7 +96,7 @@ const config = {
   themes: ['docusaurus-theme-openapi-docs'], // 🔑 Required for API theme
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'static/img/favicon-v5.png',
     navbar: {
       title: 'AbdulRaheem Olurode',
       items: [
@@ -155,7 +155,7 @@ const config = {
           className: 'button button--primary',
         },
         {
-          href: 'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
+          href: 'https://github.com/PeerlessDON25',
           label: 'GitHub',
           position: 'right',
         },

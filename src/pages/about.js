@@ -15,7 +15,7 @@ export default function About() {
         <div className="container">
           <h1>About Me</h1>
           <p className="hero__subtitle">
-            I'm AbdulRaheem Olurode, a Technical Writer and Documentation Engineer. I specialize in creating clear, 
+            I'm *AbdulRaheem Olurode*, a Technical Writer and Documentation Engineer. I specialize in creating clear, 
             user-focused technical content, and I'm passionate about improving software and API documentation 
             for better usability.
           </p>
@@ -25,7 +25,7 @@ export default function About() {
       <main className={styles.aboutContent}>
         <div className="container">
           <section className={styles.section}>
-            <h2>My WriteTech Accelerator Portfolio</h2>
+            <h2>Accelerator Portfolio</h2>
             <p>
               This portfolio showcases the practical skills I've built during the WriteTech Accelerator Program, 
               as well as my journey exploring Docs-as-Code workflows. Each module represents a key area of 
