@@ -6,17 +6,12 @@ const config = {
   title: 'AbdulRaheem Olurode',
   tagline:
     'This is my portfolio for the WriteTech Accelerator Program, showcasing projects from each module and final deliverables.',
-  favicon: 'static/img/favicon-v5.png'
+  favicon: 'static/img/favicon-v5.png',
   url: 'https://abdulraheem-docusaurus-site.com',
   baseUrl: '/',
 
-<<<<<<< HEAD
-  organizationName: 'PeerlessDON25', // Updated GitHub username
-  projectName: 'writetech-portfolio-abdulraheem', // Updated repo name
-=======
   organizationName: 'facebook', // Update this later for deployment
   projectName: 'docusaurus', // Update this later for deployment
->>>>>>> parent of 48cb44e (Update docusaurus.config.js)
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -42,15 +37,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-<<<<<<< HEAD
-          sidebarPath: require.resolve('./sidebars.js'),
-          docItemComponent: '@theme/ApiItem',
-          routeBasePath: '/',
-=======
           sidebarPath: './sidebars.js',
           docItemComponent: '@theme/ApiItem', // Required for OpenAPI theme
           routeBasePath: '/', // Serve the docs at the site root
->>>>>>> parent of 48cb44e (Update docusaurus.config.js)
           editUrl:
             'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
           showLastUpdateTime: true,
@@ -108,65 +97,6 @@ const config = {
 
   themes: ['docusaurus-theme-openapi-docs'], // 🔑 Required for API theme
 
-<<<<<<< HEAD
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      image: 'static/img/favicon-v5.png',
-
-      // Navbar configuration
-      navbar: {
-        title: 'AbdulRaheem Olurode',
-        logo: {
-          alt: 'Portfolio Logo',
-          src: 'static/img/favicon-v5.png',
-        },
-        items: [
-          { type: 'doc', docId: 'intro', position: 'left', label: 'Docs' },
-          { to: '/blog', label: 'Blog', position: 'left' },
-          {
-            href: 'https://github.com/PeerlessDON25',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-
-      // Footer configuration
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              { label: 'Tutorial', to: '/docs/intro' },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              { label: 'GitHub', href: 'https://github.com/PeerlessDON25' },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} AbdulRaheem Olurode.`,
-      },
-
-      // Color mode
-      colorMode: {
-        defaultMode: 'light',
-        disableSwitch: false,
-        respectPrefersColorScheme: true,
-      },
-
-      customCssColors: {
-        primary: '#0070f3',
-        secondary: '#ff4081',
-      },
-    }),
-};
-
-=======
   themeConfig: {
     image: 'static/img/favicon-v5.png',
     navbar: {
@@ -285,5 +215,4 @@ const config = {
   },
 };
 
->>>>>>> parent of 48cb44e (Update docusaurus.config.js)
 export default config;
