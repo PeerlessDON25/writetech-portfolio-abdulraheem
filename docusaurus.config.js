@@ -3,15 +3,10 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Technical Writer & Documentation Engineer',
+  title: 'Docusaurus Portfolio',
   tagline:
     'This is my portfolio for the WriteTech Accelerator Program, showcasing projects from each module and final deliverables.',
-  favicon: 'static/img/icons/abdulraheem image.png',
-
-  future: {
-    v4: true,
-  },
-
+  favicon: 'static/img/favicon-v5.png'
   url: 'https://abdulraheem-docusaurus-site.com',
   baseUrl: '/',
 
@@ -57,11 +52,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl:
-            'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+         
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -107,11 +98,7 @@ const config = {
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Icon',
-      logo: {
-        alt: 'Docusaurus Logo',
-        src: 'static/img/logo.svg',
-      },
+      title: 'AbdulRaheem Olurode',
       items: [
         {
           type: 'doc',
@@ -217,7 +204,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Built by AbdulRaheem Olurode – WriteTech Accelerator Programme 2025`,
+      copyright: `Copyright © ${new Date().getFullYear()} Built by AbdulRaheem Olurode – WriteTech Accelerator Program 2025`,
     },
     prism: {
       theme: prismThemes.github,
