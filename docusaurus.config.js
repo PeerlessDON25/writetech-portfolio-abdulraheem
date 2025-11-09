@@ -10,10 +10,12 @@ const config = {
   url: 'https://abdulraheem-docusaurus-site.com',
   baseUrl: '/',
 
-  organizationName: 'facebook', // Update this later
-  projectName: 'docusaurus', // Update this later
+  organizationName: 'PeerlessDON25', // Updated GitHub username
+  projectName: 'writetech-portfolio-abdulraheem', // Updated repo name
 
   onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'warn',
+
   markdown: {
     mermaid: true,
     format: 'detect',
@@ -35,7 +37,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: require.resolve('./sidebars.js'),
           docItemComponent: '@theme/ApiItem',
           routeBasePath: '/',
           editUrl:
@@ -54,7 +56,7 @@ const config = {
           },
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -92,20 +94,61 @@ const config = {
 
   themes: ['docusaurus-theme-openapi-docs'],
 
-    themeConfig: {
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
       image: 'static/img/favicon-v5.png',
-  
-      // ✅ Explicit color configuration
+
+      // Navbar configuration
+      navbar: {
+        title: 'AbdulRaheem Olurode',
+        logo: {
+          alt: 'Portfolio Logo',
+          src: 'static/img/favicon-v5.png',
+        },
+        items: [
+          { type: 'doc', docId: 'intro', position: 'left', label: 'Docs' },
+          { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            href: 'https://github.com/PeerlessDON25',
+            label: 'GitHub',
+            position: 'right',
+          },
+        ],
+      },
+
+      // Footer configuration
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Docs',
+            items: [
+              { label: 'Tutorial', to: '/docs/intro' },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              { label: 'GitHub', href: 'https://github.com/PeerlessDON25' },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} AbdulRaheem Olurode.`,
+      },
+
+      // Color mode
       colorMode: {
         defaultMode: 'light',
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
-  
-      customCssColors: {
-        primary: '#0070f3',               // main primary color
-        secondary: '#ff4081'              // optional secondary color
-      }
-    }
-  };
 
+      customCssColors: {
+        primary: '#0070f3',
+        secondary: '#ff4081',
+      },
+    }),
+};
+
+export default config;
