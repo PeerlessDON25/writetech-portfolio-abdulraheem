@@ -6,7 +6,7 @@ const config = {
   title: 'AbdulRaheem Olurode',
   tagline:
     'This is my portfolio for the WriteTech Accelerator Program, showcasing projects from each module and final deliverables.',
-  favicon: 'static/img/favicon-v5.png',
+  // favicon: 'static/img/favicon-v5.png',
   url: 'https://abdulraheem-docusaurus-site.com',
   baseUrl: '/',
 
@@ -38,7 +38,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          docItemComponent: '@theme/ApiItem', // Required for OpenAPI theme
+          docItemComponent: '@theme/ApiItem',
           routeBasePath: '/', // Serve the docs at the site root
           editUrl:
             'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
@@ -64,7 +64,7 @@ const config = {
   ],
 
   // ✅ OpenAPI Plugin + Theme
-  plugins: [
+  plugins: false [
     [
       'docusaurus-plugin-openapi-docs',
       {
@@ -94,8 +94,6 @@ const config = {
       },
     ],
   ],
-
-  themes: ['docusaurus-theme-openapi-docs'], // 🔑 Required for API theme
 
   themeConfig: {
     image: 'static/img/favicon-v5.png',
@@ -173,6 +171,10 @@ const config = {
               label: 'About Me',
               to: 'https://www.notion.so/abdulraheem-olurode25/My-Portfolio-20272992bc76802e93fadb621fdec00b?source=copy_link',
             },
+            {
+              label: 'X',
+              href: 'https://x.com/TechWriterDON',
+            },
           ],
         },
         {
@@ -186,10 +188,6 @@ const config = {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
             },
-            {
-              label: 'X',
-              href: 'https://x.com/TechWriterDON',
-            },
           ],
         },
         {
@@ -201,7 +199,7 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
+              href: 'https://github.com/PeerlessDON25',
             },
           ],
         },

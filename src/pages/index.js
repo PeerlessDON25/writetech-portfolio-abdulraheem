@@ -78,7 +78,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`AbdulRaheem Olurode - Technical Writer & Documentation Engineer`}
+      title={`Technical Writer & Documentation Engineer`}
       description="Technical Writer and Documentation Engineer specializing in developer documentation, API references, and user-focused content. Explore my WriteTech Accelerator portfolio showcasing documentation projects and technical writing expertise.">
       <HomepageHeader />
       <main>
