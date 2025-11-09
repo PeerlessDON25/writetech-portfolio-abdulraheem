@@ -6,7 +6,7 @@ const config = {
   title: 'Docusaurus Portfolio',
   tagline:
     'This is my portfolio for the WriteTech Accelerator Program, showcasing projects from each module and final deliverables.',
-  favicon: 'static/img/favicon-v5.png'
+  favicon: 'static/img/favicon-v5.png',
   url: 'https://abdulraheem-docusaurus-site.com',
   baseUrl: '/',
 
@@ -40,8 +40,8 @@ const config = {
           routeBasePath: '/', // Serve the docs at the site root
           editUrl:
             'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
-          showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
+          showLastUpdateTime: false,
+          showLastUpdateAuthor: false,
           breadcrumbs: true,
           sidebarCollapsible: true,
           sidebarCollapsed: true,
