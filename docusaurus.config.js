@@ -50,6 +50,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -64,7 +65,7 @@ const config = {
   ],
 
   // ✅ OpenAPI Plugin + Theme
-  plugins: false [
+  plugins: [
     [
       'docusaurus-plugin-openapi-docs',
       {
