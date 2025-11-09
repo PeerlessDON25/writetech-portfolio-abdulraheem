@@ -92,16 +92,20 @@ const config = {
 
   themes: ['docusaurus-theme-openapi-docs'],
 
-  themeConfig: {
-    image: 'static/img/favicon-v5.png',
+    themeConfig: {
+      image: 'static/img/favicon-v5.png',
+  
+      // ✅ Explicit color configuration
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
+  
+      customCssColors: {
+        primary: '#0070f3',               // main primary color
+        secondary: '#ff4081'              // optional secondary color
+      }
+    }
+  };
 
-    // ✅ Explicit color configuration
-    colorMode: {
-      defaultMode: 'light',
-      disableSwitch: false,
-      respectPrefersColorScheme: true,
-    },
-
-    customCssColors: {
-      primary: '#0070f3',               // main primary color
-      secondary: '#ff4081',             // optional secondary color
