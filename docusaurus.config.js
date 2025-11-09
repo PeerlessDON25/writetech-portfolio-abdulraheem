@@ -1,5 +1,5 @@
 // @ts-check
-import { themes as prismThemes } from 'prism-react-renderer';
+import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -10,8 +10,13 @@ const config = {
   url: 'https://abdulraheem-docusaurus-site.com',
   baseUrl: '/',
 
+<<<<<<< HEAD
   organizationName: 'PeerlessDON25', // Updated GitHub username
   projectName: 'writetech-portfolio-abdulraheem', // Updated repo name
+=======
+  organizationName: 'facebook', // Update this later for deployment
+  projectName: 'docusaurus', // Update this later for deployment
+>>>>>>> parent of 48cb44e (Update docusaurus.config.js)
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -37,9 +42,15 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+<<<<<<< HEAD
           sidebarPath: require.resolve('./sidebars.js'),
           docItemComponent: '@theme/ApiItem',
           routeBasePath: '/',
+=======
+          sidebarPath: './sidebars.js',
+          docItemComponent: '@theme/ApiItem', // Required for OpenAPI theme
+          routeBasePath: '/', // Serve the docs at the site root
+>>>>>>> parent of 48cb44e (Update docusaurus.config.js)
           editUrl:
             'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
           showLastUpdateTime: true,
@@ -54,6 +65,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
+         
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -62,6 +74,7 @@ const config = {
     ],
   ],
 
+  // ✅ OpenAPI Plugin + Theme
   plugins: [
     [
       'docusaurus-plugin-openapi-docs',
@@ -79,6 +92,7 @@ const config = {
         },
       },
     ],
+    // Local search plugin
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
@@ -92,8 +106,9 @@ const config = {
     ],
   ],
 
-  themes: ['docusaurus-theme-openapi-docs'],
+  themes: ['docusaurus-theme-openapi-docs'], // 🔑 Required for API theme
 
+<<<<<<< HEAD
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -151,4 +166,124 @@ const config = {
     }),
 };
 
+=======
+  themeConfig: {
+    image: 'static/img/favicon-v5.png',
+    navbar: {
+      title: 'AbdulRaheem Olurode',
+      items: [
+        {
+          type: 'doc',
+          docId: 'Introduction',
+          position: 'left',
+          label: 'About Me',
+        },
+        {
+          to: '#',
+          label: 'Portfolio Projects',
+          position: 'left',
+          items: [
+            {
+              type: 'doc',
+              docId: 'documentation-tooling/intro',
+              label: 'Documentation Tooling',
+            },
+            {
+              type: 'doc',
+              docId: 'api-documentation/intro',
+              label: 'API Documentation',
+            },
+            {
+              type: 'doc',
+              docId: 'docs-automation/intro',
+              label: 'Docs Automation',
+            },
+            {
+              type: 'doc',
+              docId: 'ai-documentation/intro',
+              label: 'AI Documentation',
+            },
+            {
+              type: 'doc',
+              docId: 'devops-cloud-documentation/overview',
+              label: 'DevOps',
+            },
+            {
+              type: 'doc',
+              docId: 'web3-documentation/getting-started',
+              label: 'Web3 Documentation',
+            },
+          ],
+        },
+        {
+          type: 'search',
+          position: 'right',
+        },
+        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://www.notion.so/abdulraheem-olurode25/My-Portfolio-20272992bc76802e93fadb621fdec00b?source=copy_link',
+          label: 'Notion Portfolio',
+          position: 'right',
+          className: 'button button--primary',
+        },
+        {
+          href: 'https://github.com/PeerlessDON25',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Docs',
+          items: [
+            {
+              label: 'About Me',
+              to: 'https://www.notion.so/abdulraheem-olurode25/My-Portfolio-20272992bc76802e93fadb621fdec00b?source=copy_link',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discordapp.com/invite/docusaurus',
+            },
+            {
+              label: 'X',
+              href: 'https://x.com/TechWriterDON',
+            },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Built by AbdulRaheem Olurode – WriteTech Accelerator Program 2025`,
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+  },
+};
+
+>>>>>>> parent of 48cb44e (Update docusaurus.config.js)
 export default config;
