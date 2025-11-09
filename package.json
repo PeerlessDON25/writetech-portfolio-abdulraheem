@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json.schemastore.org/package",
-  "name": "writetech-accelerator-portfolio-abdulraheem",
+  "name": "writetech-portfolio-abdulraheem",
   "version": "0.10.5",
   "private": true,
   "scripts": {
