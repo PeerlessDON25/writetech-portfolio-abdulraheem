@@ -6,7 +6,7 @@ const config = {
   title: 'AbdulRaheem Olurode',
   tagline:
     'This is my portfolio for the WriteTech Accelerator Program, showcasing projects from each module and final deliverables.',
-  favicon: 'static/img/favicon-v5.png',
+  favicon: 'static/img/favicon-v5.png'
   url: 'https://abdulraheem-docusaurus-site.com',
   baseUrl: '/',
 
@@ -42,8 +42,8 @@ const config = {
           routeBasePath: '/',
           editUrl:
             'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
-          showLastUpdateTime: false,
-          showLastUpdateAuthor: false,
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
           breadcrumbs: true,
           sidebarCollapsible: true,
           sidebarCollapsed: true,
