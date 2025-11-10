@@ -5,7 +5,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'AbdulRaheem Olurode',
   tagline:'This is my portfolio for the WriteTech Accelerator Program, showcasing projects from each module and final deliverables.',
-  favicon:'img/favicon-v5.png',
+  favicon:'build/img/favicon-v5.png',
   url: 'https://abdulraheem-docusaurus-site.com',
   baseUrl: '/',
 
@@ -171,7 +171,7 @@ const config = {
           items: [
             {
               label: 'About Me',
-              to: 'https://www.notion.so/abdulraheem-olurode25/My-Portfolio-20272992bc76802e93fadb621fdec00b?source=copy_link',
+              to: 'https://www.linkedin.com/in/abdulraheemolurode25',
             },
             {
               label: 'X',
