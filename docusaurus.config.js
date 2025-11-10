@@ -184,7 +184,7 @@ const config = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackexchange.com/users/26435285/don',
+              href: 'https://stackoverflow.com/users/20080739/don?tab=profile',
             },
             {
               label: 'Discord',

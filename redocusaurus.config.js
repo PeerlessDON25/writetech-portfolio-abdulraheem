@@ -12,7 +12,7 @@ const redocusaurus = [
     ],
     theme: {
       primaryColor: '#1DB954', // Spotify green to match your theme
-      redocOptions: {
+      options: {
         hideDownloadButton: false,
         disableSearch: false,
         expandResponses: '200,201',
@@ -21,26 +21,11 @@ const redocusaurus = [
         sortPropsAlphabetically: true,
         hideLoading: false,
         nativeScrollbars: true,
-        noAutoAuth: true,
         onlyRequiredInSamples: false,
         pathInMiddlePanel: true,
         requiredPropsFirst: true,
         scrollYOffset: 60,
         showExtensions: true,
-        sortPropsAlphabetically: true,
-        theme: {
-          colors: {
-            primary: {
-              main: '#1DB954', // Spotify green
-            },
-            http: {
-              get: '#61affe',
-              post: '#49cc90',
-              put: '#fca130',
-              delete: '#f93e3e',
-            },
-          },
-        },
       },
     },
   },

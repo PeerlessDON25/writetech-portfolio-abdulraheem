@@ -4,13 +4,13 @@ import styles from './styles.module.css';
 const companies = [
   {
     name: 'TechCrush Academy',
-    logo: 'static/img/tech crush.svg',
+    logo: 'img/tech crush.svg',
     alt: 'TechCrush logo',
     fallbackText: 'Tech'
   },
   {
     name: 'Revive Digital Solutions',
-    logo: '/static/img/revive digital solutions.png',
+    logo: 'img/revive digital solutions.png',
     alt: 'Revive Digital Solutions logo',
     fallbackText: 'Revive'
   },
