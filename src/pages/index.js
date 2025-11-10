@@ -58,7 +58,7 @@ function HomepageHeader() {
             <div className={styles.profileCard}>
               <div className={styles.profileImageContainer}>
                 <img 
-                  src="/img/abdulraheem-olurode.jpg" 
+                  src="img/favicon-v5.png" 
                   alt="AbdulRaheem Olurode"
                   className={styles.profileImage}
                 />
@@ -78,7 +78,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Technical Writer & Documentation Engineer`}
+      title={`AbdulRaheem Olurode`}
       description="Technical Writer and Documentation Engineer specializing in developer documentation, API references, and user-focused content. Explore my WriteTech Accelerator portfolio showcasing documentation projects and technical writing expertise.">
       <HomepageHeader />
       <main>
