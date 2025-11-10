@@ -98,9 +98,9 @@ const config = {
   themes: ['docusaurus-theme-openapi-docs'], // 🔑 Required for API theme
 
   themeConfig: {
-    image: 'static/img/favicon-v5.png',
+    image: 'build/img/favicon-v5.png',
     navbar: {
-      title: 'AbdulRaheem Olurode',
+      title: 'Introduction',
       items: [
         {
           type: 'doc',

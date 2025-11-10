@@ -1,4 +1,4 @@
-name: Spectral Lint & Redocly
+git name: Spectral Lint & Redocly
 
 on:
   push:
