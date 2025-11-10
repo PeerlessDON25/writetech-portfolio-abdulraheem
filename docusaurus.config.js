@@ -1,16 +1,15 @@
 // @ts-check
-import { themes as prismThemes } from 'prism-react-renderer';
+import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'AbdulRaheem Olurode',
-  tagline:
-    'This is my portfolio for the WriteTech Accelerator Program, showcasing projects from each module and final deliverables.',
-  favicon: 'img/favicon-v5.png',
+  tagline:'This is my portfolio for the WriteTech Accelerator Program, showcasing projects from each module and final deliverables.',
+  favicon:'build/img/favicon-v5.png',
   url: 'https://abdulraheem-docusaurus-site.com',
   baseUrl: '/',
 
-  organizationName: 'WriteTech Hub',
+  organizationName: 'WriteTech Hub', 
   projectName: 'AbdulRaheem Portfolio',
 
   onBrokenLinks: 'ignore',
@@ -50,10 +49,12 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
+         
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -62,38 +63,25 @@ const config = {
     ],
   ],
 
-  // ✅ Temporarily disable the OpenAPI plugin + theme
-  // plugins: [
-  //   [
-  //     'docusaurus-plugin-openapi-docs',
-  //     {
-  //       id: 'chimoney',
-  //       docsPluginId: 'classic',
-  //       config: {
-  //         chimoney: {
-  //           specPath: 'docs/api-documentation/api-reference/chimoney-spec.yaml',
-  //           outputDir: 'docs/api-documentation/api-reference/chimoney',
-  //           sidebarOptions: { groupPathsBy: 'tag' },
-  //         },
-  //       },
-  //     },
-  //   ],
-  //   // Local search plugin
-  //   [
-  //     require.resolve('@easyops-cn/docusaurus-search-local'),
-  //     {
-  //       hashed: true,
-  //       indexDocs: true,
-  //       indexBlog: true,
-  //       indexPages: true,
-  //       docsRouteBasePath: '/docs',
-  //       blogRouteBasePath: '/blog',
-  //     },
-  //   ],
-  // ],
-
-  // ✅ Keep only local search plugin active
+  // ✅ OpenAPI Plugin + Theme
   plugins: [
+    [
+      'docusaurus-plugin-openapi-docs',
+      {
+        id: 'chimoney',
+        docsPluginId: 'classic',
+        config: {
+          chimoney: {
+            specPath: 'docs/api-documentation/api-reference/chimoney-spec.yaml',
+            outputDir: 'docs/api-documentation/api-reference/chimoney',
+            sidebarOptions: {
+              groupPathsBy: 'tag',
+            },
+          },
+        },
+      },
+    ],
+    // Local search plugin
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
@@ -107,10 +95,9 @@ const config = {
     ],
   ],
 
-  // themes: ['docusaurus-theme-openapi-docs'], // 🔒 Disabled temporarily
+  themes: ['docusaurus-theme-openapi-docs'], // 🔑 Required for API theme
 
   themeConfig: {
-    image: 'build/img/favicon-v5.png',
     navbar: {
       title: 'Introduction',
       items: [
@@ -161,7 +148,7 @@ const config = {
           type: 'search',
           position: 'right',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://www.notion.so/abdulraheem-olurode25/My-Portfolio-20272992bc76802e93fadb621fdec00b?source=copy_link',
           label: 'Notion Portfolio',
