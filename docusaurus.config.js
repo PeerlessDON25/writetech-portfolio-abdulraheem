@@ -5,7 +5,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'AbdulRaheem Olurode',
   tagline:'This is my portfolio for the WriteTech Accelerator Program, showcasing projects from each module and final deliverables.',
-  favicon:'static/img/favicon-v5.png',
+  favicon:'img/favicon-v5.png',
   url: 'https://abdulraheem-docusaurus-site.com',
   baseUrl: '/',
 
