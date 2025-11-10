@@ -20,13 +20,13 @@ Take time to explore these folders—knowing where to put images, Markdown files
 To show your author profile and icon in blog posts:
 - Define your author in `blog/authors.yml` with a unique key.
 - Use the `image_url` field for your profile picture. You can link directly to a GitHub-hosted image using the `/raw/` path.
-- Reference your author key in the blog post frontmatter (e.g., `author: benson`).
+- Reference your author key in the blog post frontmatter (e.g., `author: AbdulRaheem`).
 
 ## 3. Fixing Frontmatter Errors
 
 Docusaurus expects specific formats:
-- For a single author, use `author: benson` (not a list).
-- For multiple authors, use `author: [benson, anotherAuthor]`.
+- For a single author, use `author: AbdulRaheem` (not a list).
+- For multiple authors, use `author: [Don, anotherAuthor]`.
 - Tags can be listed as an array: `tags: [docusaurus, api]`.
 
 If you see errors, double-check your frontmatter for typos or formatting issues.

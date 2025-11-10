@@ -9,8 +9,8 @@ const config = {
   url: 'https://abdulraheem-docusaurus-site.com',
   baseUrl: '/',
 
-  organizationName: 'facebook', // Update this later for deployment
-  projectName: 'docusaurus', // Update this later for deployment
+  organizationName: 'WriteTech Hub', 
+  projectName: 'AbdulRaheem Portfolio',
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -98,7 +98,6 @@ const config = {
   themes: ['docusaurus-theme-openapi-docs'], // 🔑 Required for API theme
 
   themeConfig: {
-    image: 'build/img/favicon-v5.png',
     navbar: {
       title: 'Introduction',
       items: [
