@@ -37,7 +37,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          docItemComponent: 'null', // Disable doc item component
+          docItemComponent: '@theme/ApiItem', // Required for OpenAPI theme
           routeBasePath: '/', // Serve the docs at the site root
           editUrl:
             'https://github.com/PeerlessDON25/writetech-portfolio-abdulraheem',
@@ -94,6 +94,8 @@ const config = {
       },
     ],
   ],
+
+  themes: ['docusaurus-theme-openapi-docs'], // 🔑 Required for API theme
 
   themeConfig: {
     image: 'static/img/favicon-v5.png',
