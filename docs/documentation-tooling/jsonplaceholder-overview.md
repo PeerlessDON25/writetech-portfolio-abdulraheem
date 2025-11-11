@@ -2,11 +2,6 @@
 title: Overview; JSONPlaceholder
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-Welcome! 
-
 JSONPlaceholder is a free online REST API that you can use for **testing** and **prototyping**.  
 It provides fake endpoints for common resources such as posts, comments, users, todos, and more.
 
