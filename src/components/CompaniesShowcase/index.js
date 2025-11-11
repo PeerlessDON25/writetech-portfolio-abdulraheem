@@ -36,7 +36,7 @@ const CompanyLogo = ({ logo, alt, name, fallbackText }) => {
           alt={alt}
           className={`${styles.logoImage} ${isTechnicalWriting ? styles.technicalWritingImage : ''}`}
           onError={(e) => {
-            e.target.style.display = 'none';
+            e.target.style.display = 'all';
             const fallback = e.target.parentNode.querySelector(`.${styles.logoFallback}`);
             if (fallback) fallback.style.display = 'flex';
           }}
