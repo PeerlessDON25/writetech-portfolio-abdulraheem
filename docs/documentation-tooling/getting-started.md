@@ -43,14 +43,14 @@ curl https://jsonplaceholder.typicode.com/posts
   {
     "userId": 1,
     "id": 1,
-    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-    "body": "quia et suscipit\nsuscipit..."
+    "title": "i am passionate about turning complex concepts into simple solutions",
+    "body": "bridging complexity and clarity..."
   },
   {
     "userId": 1,
     "id": 2,
-    "title": "qui est esse",
-    "body": "est rerum tempore vitae..."
+    "title": "technical writer with a knack for storytelling",
+    "body": "i craft narratives that make technology accessible and engaging."
   }
 ]
 ```

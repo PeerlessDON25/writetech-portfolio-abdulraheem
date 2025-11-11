@@ -27,7 +27,7 @@ Create a new post by sending a POST request with the required fields.
 curl -X POST https://jsonplaceholder.typicode.com/posts \
   -H "Content-Type: application/json" \
   -d '{
-    "title": "foo",
+    "title": "tech",
     "body": "bar",
     "userId": 1
   }'
@@ -42,7 +42,7 @@ fetch("https://jsonplaceholder.typicode.com/posts", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({
-    title: "foo",
+    title: "tech",
     body: "bar",
     userId: 1
   })
@@ -61,7 +61,7 @@ import requests
 response = requests.post(
     "https://jsonplaceholder.typicode.com/posts",
     json={
-        "title": "foo",
+        "title": "tech",
         "body": "bar",
         "userId": 1
     }
@@ -76,7 +76,7 @@ print(response.json())
 
 ```json
 {
-  "title": "foo",
+  "title": "tech",
   "body": "bar",
   "userId": 1,
   "id": 101

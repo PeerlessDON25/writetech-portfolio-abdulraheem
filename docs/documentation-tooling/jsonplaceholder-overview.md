@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Overview; JSONPlaceholder
 ---
 
 import Tabs from '@theme/Tabs';
@@ -77,7 +77,7 @@ print(response.json())
 {
   "userId": 1,
   "id": 1,
-  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum..."
+  "title": "passionate technical writer and documentation engineer",
+  "body": "main mission: turning complex concepts into clear, concise content..."
 }
 ```

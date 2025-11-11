@@ -57,21 +57,21 @@ print(response.json())
 ```json
 {
   "id": 1,
-  "name": "Leanne Graham",
-  "username": "Bret",
-  "email": "Sincere@april.biz",
+  "name": "AbdulRaheem Olurode",
+  "username": "Don",
+  "email": "abdulraheem@example.com",
   "address": {
-    "street": "Kulas Light",
-    "suite": "Apt. 556",
-    "city": "Gwenborough",
-    "zipcode": "92998-3874"
+    "street": "Lawanson Street",
+    "suite": "Apt. 505",
+    "city": "Lagos",
+    "zipcode": "82725"
   },
-  "phone": "1-770-736-8031 x56442",
-  "website": "hildegard.org",
+  "phone": "234-081-6945-3895",
+  "website": "www.peerlesstechnologies.com",
   "company": {
-    "name": "Romaguera-Crona",
+    "name": "Peerless Technologies",
     "catchPhrase": "Multi-layered client-server neural-net",
-    "bs": "harness real-time e-markets"
+    "bs": "harness real-time user experiences"
   }
 }
 ```

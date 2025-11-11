@@ -1,7 +1,7 @@
 ---
 
 slug: beginner-guide-to-yaml-and-openapi
-title: Beginner’s Guide to YAML and OpenAPI with Real-Life Examples
+title: A Beginner-friendly Guide to YAML and OpenAPI with Real-Life Examples
 authors: AbdulRaheem Olurode
 tags: [openapi, yaml, api documentation, beginners guide, software development]
 description: Learn YAML and OpenAPI through simple real-life examples. This guide walks beginners step by step with clear explanations, stories, and practical demonstrations.
